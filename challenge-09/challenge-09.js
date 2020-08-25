@@ -9,6 +9,7 @@ ajuste o posicionamento das variáveis e funções internas, para que os código
 dentro de `console.log` que estão retornando `undefined` retornem o valor
 correto da variável ou função chamada.
 */
+(function (){
 
 function myFunction() {
     var number1 = 10;
@@ -125,3 +126,5 @@ console.log( 'O resultado da divisão é:',division(function(x,y){return x/y;}))
 
 console.log( 'O resto da divisão é:',mod(function(x,y){return x%y;}));
 // ?
+
+}()
